@@ -1,0 +1,94 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur|Hind+Siliguri|Hind+Vadodara&display=swap');
+
+.overall{
+background-color: whitesmoke;
+}
+
+.header{
+position: absolute;
+width: 1440px;
+height: 200px;
+left: 0px;
+top: 0px;
+
+background-color: maroon;
+}
+
+.name{
+position: absolute;
+width: 1440px;
+height: 40px;
+left: 80px;
+top: 80px;
+
+font-family: Hind Siliguri;
+font-size: 40px;
+display: flex;
+align-items: center;
+
+color: white;
+}
+
+ .bigPicture{
+position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 200px;
+
+background-image: url(../img/myface.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.heading{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 700px;
+
+background-color: maroon;
+}
+
+p.about{	
+position: absolute;
+width: 1440px;
+height: 25px;
+left: 80px;
+top: 750px;
+
+font-family: Hind Siliguri;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: white;
+}
+
+.bio{
+width: 1280px;
+height: 627px;
+left: 80px;
+top: 925px;
+
+font-family: Hind Vadodara;
+font-size: 50px;
+line-height: 57px;
+
+color: darkslategray;
+}
+
+.footer{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 1500px;
+
+background: maroon;
+}

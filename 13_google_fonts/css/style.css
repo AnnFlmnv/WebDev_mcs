@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+.heading h1{
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'Oswald', sans-serif;
+}
+
+.paragraph p{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.paragraphTwo p {
+	font-family: 'Oxygen', sans-serif;
+}
