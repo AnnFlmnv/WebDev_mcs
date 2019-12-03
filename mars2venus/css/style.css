@@ -1,0 +1,40 @@
+
+.page {
+  height: 3000px;
+  background-image: url(https://c1.staticflickr.com/6/5173/5436446554_9244788c36_b.jpg);
+  position: relative;
+}
+
+.rocket {
+  background-image: url(http://pa7lux.ru/mcs/rocket.png);
+  background-size: contain;
+  width: 100px;
+  height: 200px;
+  top: 20px;
+  right:100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  z-index: 3;
+}
+.mars {
+  background-image: url(http://pa7lux.ru/mcs/mars.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  top:10px;
+  right:10px;
+  background-position: center;
+  position: absolute;
+}
+
+.venus {
+  background-image: url(http://pa7lux.ru/mcs/venus.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  bottom:10px;
+  right:10px;
+  background-position: center;
+  position: absolute;
+ }

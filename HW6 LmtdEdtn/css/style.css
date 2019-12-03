@@ -1,0 +1,178 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Anton|Domine|Ibarra+Real+Nova&display=swap');
+
+.outer{
+	background-color: white;
+	position: relative;
+}
+
+.header{
+	height: 80px;
+	background-color:  #F40009;
+	position: relative;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.headerText{
+	color: white;
+	position: relative;
+	margin: auto;
+
+	align-self: flex-start;
+
+	font-family: Anton;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.headerLink{
+	color: white;
+	position: relative;
+	margin:  auto 30px;
+
+	display: inline-block;
+
+	font-family: Anton;
+	font-size: 30px;
+}
+
+.ColaPic{
+	height: 400px;
+
+	background-image: url(../img/cola_bg.jpg);
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+}
+
+.slogan{
+
+	height: 200px;
+	width: 800px;
+
+	font-family: Domine;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+
+	margin-left: 50px;
+}
+
+.bg{
+	height: 1600px;
+
+	background-color: white;
+	position:relative;
+
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;	
+	flex-wrap: wrap;
+}
+
+.about{
+	width: 800px;
+	height: 100px;
+	border: 2px solid #F40009;
+	border-radius: 10%;
+
+	padding: 20px 20px 20px 20px;
+
+	font-family: Domine;
+	font-size: 15px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+	}
+
+.bottles{
+
+	height: 500px;
+	width: 800px;
+
+	background-image: url(../img/bottles.jpg);
+	background-position: center;
+	background-size: cover;
+
+	border-radius: 50%;
+}
+
+.type{
+	height: 200px;
+	width: 200px;
+
+	background-image: url(../img/can.png);
+	background-position: center;
+	background-size: cover;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 20px 20px 20px 20px;
+	margin: 50px 50px 50px 50px;
+
+	font-family: Ibarra Real Nova;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.info{
+	display: flex;
+	display-direction: row;
+}
+.img{
+	width: 200px;
+	height: 200px;
+
+	background-image: url(../img/colacan.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.infoText{
+	width: 400px;
+	height: 200px;
+
+	font-family: Domine;
+	font-size: 15px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+}
+
+.footer{
+	height: 60px;
+	background-color:  #F40009;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright{
+	margin: auto;
+
+	font-family: Domine;
+	font-size: 20px;
+	color: white;	
+}
+
+.back{
+	margin: auto;
+
+	font-family: Domine;
+	font-size: 20px;
+	color: white;	
+}
+
