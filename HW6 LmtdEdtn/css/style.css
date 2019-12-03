@@ -1,10 +1,5 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css?family=Anton|Domine|Ibarra+Real+Nova&display=swap');
-
-.outer{
-	background-color: white;
-	position: relative;
-}
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display+SC|Vidaloka|Vollkorn&display=swap');
 
 .header{
 	height: 80px;
@@ -14,29 +9,33 @@
 	display: flex;
 
 	justify-content: space-between;
+	align-items: center;
 }
 
 .headerText{
 	color: white;
 	position: relative;
-	margin: auto;
+	margin: auto 100px;
+	display: inline-block;
 
-	align-self: flex-start;
-
-	font-family: Anton;
+	font-family: Lobster;
 	font-size: 40px;
 	font-weight: bold;
+
 }
 
 .headerLink{
 	color: white;
 	position: relative;
-	margin:  auto 30px;
+	margin:  auto 100px;
 
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
 
-	font-family: Anton;
-	font-size: 30px;
+	justify-content: space-between;
+
+	font-family: Vidaloka;
+	font-size: 20px;
 }
 
 .ColaPic{
@@ -94,7 +93,6 @@
 	}
 
 .bottles{
-
 	height: 500px;
 	width: 800px;
 
