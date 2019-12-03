@@ -8,8 +8,9 @@
 
 .header{
 	height: 80px;
+	width: 1440px;
 	background-color:  #F40009;
-	position: relative;
+	position: fixed;
 	display: flex;
 
 	justify-content: space-between;
